@@ -91,6 +91,7 @@
     {!! $errors->first('end_time', '<p class="alert alert-danger">:message</p>') !!}
     </div>
 </div>
+{{-- <div>{{ Auth::user()->id }}</div> --}}
   
 </div>
 <div class="form-group">

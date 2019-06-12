@@ -41,6 +41,7 @@
             </table>
             <div align="right">
             <a class="btn btn-secondary" href="{{ url()->previous() }}">ย้อนกลับ</a>
+            <a class="btn btn-secondary" href="{{ url('/namelist') }}">รายชื่อ</a>
             </div>
         </div>
     </div>

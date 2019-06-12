@@ -102,6 +102,8 @@ class EventController extends Controller
         $event->start_time = $request['start_time'];
         $event->end_time = $request['end_time'];
         $event->room_id = $request['room_id'];
+        $user = Auth::user();
+        $event->user_id = $user->id;
         $event->save();
  
         /* \Session::flash('success','Event added successfully.'); */
